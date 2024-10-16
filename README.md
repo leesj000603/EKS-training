@@ -255,4 +255,4 @@ pod/eks-example-deployment-747c87f49b-hgxrp   1/1     Running   0          2m29s
 ```
 eksctl delete cluster --name [클러스터명] --region ${AWS_REGION}
 ```
-### 꼭 삭제! 클러스터 한개를 사용하는 경우, 꽤 비싼 요금인 시간당 0.1 USD가 부과되고, ec2노드당 요금이 또 부과되므로 주의..
+### 꼭 삭제! 클러스터 한개를 사용하는 경우, 꽤 비싼 요금인 시간당 0.1 USD가 부과되고, ec2노드당 요금, 기타 물려있는 서비스 요금이 부과되므로 주의..

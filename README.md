@@ -129,7 +129,7 @@ kubectl run eks-example-a --image=leesj000603/eks-example
 
 kubectl get pods
 NAME          READY   STATUS   RESTARTS      AGE
-nginx-apple   0/1     Error    2 (23s ago)   42s
+eks-example-a   0/1     Error    2 (23s ago)   42s
 
 #error가 난 것은 PODNAME 환경변수를 설정해주지 않았기 때문
 ```
